@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import RoomSVG from "../Roomsvg/page";
-import SwatchPicker from "../Swatchpicker/page";
+import RoomSVG from "../components/Roomsvg";
+import SwatchPicker from "../components/Swatchpicker";
 import { floorOptions, wallOptions, tableOptions } from "@/data";
 import { Category, RoomState } from "@/types";
 
